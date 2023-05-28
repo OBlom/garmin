@@ -24,7 +24,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
         var height = dc.getHeight() as Number;
         var centerW = width / 2 as Number;
         var centerH = height / 2 as Number;
-
+        mCounter = 0;
         var size = (height > width ? width : height) as Number;
         self._leafs = new Flower.Leaf(0.6f, size, centerW,centerH);
 
@@ -35,15 +35,20 @@ class FlowerLapCounterView extends WatchUi.DataField {
     // Note that compute() and onUpdate() are asynchronous, and there is no
     // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
-        mCounter++;
+    
         // See Activity.Info in the documentation for available information.
-        if(info has :currentHeartRate){
-            if(info.currentHeartRate != null){
-                mValue = info.currentHeartRate as Number;
-            } else {
-                mValue = 0.0f;
+        if (info has :elapsedTime && info has :elapsedDistance)
+        {
+            if (info.elapsedTime != null && info.elapsedDistance != null){
+                if ( info.elapsedTime > 100){
+                    mCounter = ((info.elapsedDistance + 1) / 50.0 as Float).toNumber();
+                }
+                else{
+                    mCounter++;
+                }
             }
         }
+        
     }
 
     // Display the value you computed here. This will be called
