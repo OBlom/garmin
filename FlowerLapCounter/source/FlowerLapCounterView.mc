@@ -3,11 +3,13 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Math;
+import Flower;
 
 class FlowerLapCounterView extends WatchUi.DataField {
 
     hidden var mValue as Numeric;
     hidden var mCounter as Number;
+    hidden var _leafs as Leaf or Null;
 
     function initialize() {
         DataField.initialize();
@@ -18,34 +20,14 @@ class FlowerLapCounterView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-        var obscurityFlags = DataField.getObscurityFlags();
+        var width = dc.getWidth() as Number;
+        var height = dc.getHeight() as Number;
+        var centerW = width / 2 as Number;
+        var centerH = height / 2 as Number;
 
-        // Top left quadrant so we'll use the top left layout
-        if (obscurityFlags == (OBSCURE_TOP | OBSCURE_LEFT)) {
-            View.setLayout(Rez.Layouts.TopLeftLayout(dc));
+        var size = (height > width ? width : height) as Number;
+        self._leafs = new Flower.Leaf(0.6f, size, centerW,centerH);
 
-        // Top right quadrant so we'll use the top right layout
-        } else if (obscurityFlags == (OBSCURE_TOP | OBSCURE_RIGHT)) {
-            View.setLayout(Rez.Layouts.TopRightLayout(dc));
-
-        // Bottom left quadrant so we'll use the bottom left layout
-        } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_LEFT)) {
-            View.setLayout(Rez.Layouts.BottomLeftLayout(dc));
-
-        // Bottom right quadrant so we'll use the bottom right layout
-        } else if (obscurityFlags == (OBSCURE_BOTTOM | OBSCURE_RIGHT)) {
-            View.setLayout(Rez.Layouts.BottomRightLayout(dc));
-
-        // Use the generic, centered layout
-        } else {
-            View.setLayout(Rez.Layouts.MainLayout(dc));
-            var labelView = View.findDrawableById("label");
-            labelView.locY = labelView.locY - 16;
-            var valueView = View.findDrawableById("value");
-            valueView.locY = valueView.locY + 7;
-        }
-
-         (View.findDrawableById("label") as Text).setText(Rez.Strings.label);
     }
 
     // The given info object contains all the current workout information.
@@ -68,54 +50,50 @@ class FlowerLapCounterView extends WatchUi.DataField {
     // once a second when the data field is visible.
     function onUpdate(dc as Dc) as Void {
         
-        // Set the background color
-        
-
-        // Set the foreground color and value
-       // var value = View.findDrawableById("value") as Text;
-      //  if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-     //       value.setColor(Graphics.COLOR_WHITE);
-     //   } else {
-     //       value.setColor(Graphics.COLOR_BLACK);
-     //   }
-     //   value.setText(mCounter.format("%d"));
-
-    //dc.fillRectangle(100, 100, 100, 100);
-    
-        
-        
         
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
         
-        if (mCounter % 4 == 0)
-        {
-           dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-        }
-       else{
-            dc.setColor(Graphics.COLOR_BLACK,Graphics.COLOR_WHITE );
+        if (getBackgroundColor() == Graphics.COLOR_BLACK) {
+            dc.setColor(Graphics.COLOR_WHITE,getBackgroundColor());
+        } else {
+            dc.setColor(Graphics.COLOR_BLACK,getBackgroundColor());
         }
         dc.clear();
-        var width = dc.getWidth() as Number;
-        var height = dc.getHeight() as Number;
-        var centerW = width / 2 as Number;
-        var centerH = height / 2 as Number;
-
-        var size = (height > width ? width : height) / 6 as Number;
         
-
-        dc.fillCircle(centerW,centerH,size);
-        var leaf = getLeaf2(centerW,centerH,size,Math.PI*1.5f);
-        dc.fillPolygon(leaf);
-        var leaf2 = getLeaf2(centerW,centerH,size,Math.PI*1.9f);
-        dc.fillPolygon(leaf2);
-        var leaf3 = getLeaf2(centerW,centerH,size,Math.PI*2.3f);
-        dc.fillPolygon(leaf3);
-        var leaf4 = getLeaf2(centerW,centerH,size,Math.PI*2.7f);
-        dc.fillPolygon(leaf4);
-        var leaf5 = getLeaf2(centerW,centerH,size,Math.PI*3.1f);
-        dc.fillPolygon(leaf5);
-
+        var center = self._leafs.getCenterLeaf();
+        if (mCounter % 20 < 10)
+        {
+            dc.fillPolygon(center);
+        }
+        else
+        {
+            for (var i = 1 as Number; i < center.size() ; i +=1)
+            {
+                dc.drawLine(center[i-1][0],center[i-1][1],center[i][0],center[i][1]);
+            }
+            
+        }
+        if (mCounter % 10 < 5)
+        {
+            var leafs = mCounter % 5 + 1;
+            for (var l = 0 as Number; l < leafs; l += 1)
+            {
+                var leaf = self._leafs.getLeaf(l);
+                dc.fillPolygon(leaf);
+            }
+        }
+        else
+        {
+            var leafs = (mCounter % 5);
+            for (var l = (mCounter % 5 + 1) as Number; l < 5; l += 1)
+            {
+                var leaf = self._leafs.getLeaf(l);
+                dc.fillPolygon(leaf);
+            }
+        }
+        
+        
     }
 
     function  getLeaf(x as Number, y as Number, size as Number, startAngle as Float) as Array<Array<Numeric>>
@@ -138,17 +116,20 @@ class FlowerLapCounterView extends WatchUi.DataField {
     function  getLeaf2(x as Number, y as Number, size as Number, startAngle as Float) as Array<Array<Numeric>>
     {
         var degOffset = Math.PI/90.0f as Float;
-        var radiusOffset = 5.0 as Float;
-        var rReduce = 4.0 as Float;
-        var steps = 8 as Number;
-
+        var radiusOffset = 3.0 as Float;
+        var ratio = 1.0 as Float;
+        var steps = 10 as Number;
         var leafPoints = new Array<Array<Numeric>>[steps*2+1];
         var radSteps = (Math.PI*0.4f-2*degOffset)/ (steps-1) as Float;
         var r1 = size + radiusOffset;
-        var a = (steps-1) / 2.0f as Float;
+        var rMax = size * 3.0f as Float;
+        var S = steps - 1.0f as Float;
+        var a = 4.0f / (S * S) as Float;
+        var b = -4.0f / S as Float;
+        var dR = ratio * (rMax - r1) as Float;
         for (var i = 0 as Number; i < steps; i+= 1)
         {
-            var r2 = (size * 3.0f) - (rReduce * (i - a)*(i - a)) as Float;
+            var r2 = rMax - (dR * ((a * i * i) + (b * i) + 1.0f) ) as Float;
             var v = i*radSteps+startAngle+degOffset as Float;
             leafPoints[i]       = [Math.floor(r2*Math.cos(v))+x,Math.floor(r2*Math.sin(v))+y];
             leafPoints[(steps*2-1)-i] = [Math.floor(r1*Math.cos(v))+x,Math.floor(r1*Math.sin(v))+y];

@@ -1,0 +1,440 @@
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 2; ]
+import Toybox.Math;
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 3; ]
+module Flower {
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 6; ]
+    class Leaf{
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 6; ]
+        <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 8 11 ]
+            %tmp.1 = 8;
+            %tmp.2 = as %tmp.1 Number;
+            putv self :resolution %tmp.2;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 9 11 ]
+            %tmp.3 = 5;
+            %tmp.4 = as %tmp.3 Number;
+            putv self :numLeafs %tmp.4;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 10 11 ]
+            %tmp.5 = getm $.Toybox.Math;
+            %tmp.6 = getv %tmp.5 :PI;
+            %tmp.7 = 90.0f;
+            %tmp.8 = as %tmp.7 Float;
+            %tmp.9 = div %tmp.6 %tmp.8;
+            putv self :angleOffset %tmp.9;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 11 11 ]
+            %tmp.10 = 1.0f;
+            %tmp.11 = 6.0f;
+            %tmp.12 = as %tmp.11 Float;
+            %tmp.13 = div %tmp.10 %tmp.12;
+            putv self :centerRadieRatio %tmp.13;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 12 11 ]
+            %tmp.14 = 3.0;
+            %tmp.15 = as %tmp.14 Float;
+            putv self :radiusOffset %tmp.15;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 13 11 ]
+            %tmp.16 = getm $.Toybox.Math;
+            %tmp.17 = getv %tmp.16 :PI;
+            %tmp.18 = 1.5f;
+            %tmp.19 = as %tmp.18 Float;
+            %tmp.20 = mul %tmp.17 %tmp.19;
+            putv self :startAngle %tmp.20;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 14 11 ]
+            %tmp.21 = getm $.Toybox.Math;
+            %tmp.22 = getv %tmp.21 :PI;
+            %tmp.23 = 2.0f;
+            %tmp.24 = mul %tmp.22 %tmp.23;
+            %tmp.26 = getv ? :numLeafs;
+            %tmp.27 = div %tmp.24 %tmp.26;
+            %tmp.28 = as %tmp.27 Float;
+            putv self :deltaAngleLeaf %tmp.28;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 15 11 ]
+            %tmp.30 = getv ? :deltaAngleLeaf;
+            %tmp.31 = 2;
+            %tmp.33 = getv ? :angleOffset;
+            %tmp.34 = mul %tmp.31 %tmp.33;
+            %tmp.35 = sub %tmp.30 %tmp.34;
+            %tmp.37 = getv ? :resolution;
+            %tmp.38 = 1.0f;
+            %tmp.39 = sub %tmp.37 %tmp.38;
+            %tmp.40 = as %tmp.39 Float;
+            %tmp.41 = div %tmp.35 %tmp.40;
+            putv self :angleStep %tmp.41;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 6; ]
+        static
+        <init> {
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 8; @position = 11; ]
+        const resolution;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 9; @position = 11; ]
+        const numLeafs;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 10; @position = 11; ]
+        const angleOffset;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 11; @position = 11; ]
+        const centerRadieRatio;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 12; @position = 11; ]
+        const radiusOffset;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 13; @position = 11; ]
+        const startAngle;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 14; @position = 11; ]
+        const deltaAngleLeaf;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 15; @position = 11; ]
+        const angleStep;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 17; @position = 18; ]
+        protected
+        var _centerLeaf as Array<Array<Number>>;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 18; @position = 18; ]
+        protected
+        var _leafs as Array<Array<Array<Number>>>;
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 19; ]
+        public
+        function initialize(ratio as Float, diameter as Number, xpos as Number, ypos as Number) as Void {
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 21 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop" ]
+            %rc.1 = local;
+            %tmp.2 = lgetv %diameter;
+            %tmp.3 = lgetv %self;
+            %tmp.4 = getv %tmp.3 :centerRadieRatio;
+            %tmp.5 = as %tmp.4 Float;
+            %tmp.6 = mul %tmp.2 %tmp.5;
+            lputv %rc.1 %tmp.6;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 22 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop" ]
+            %r1.2 = local;
+            %tmp.8 = lgetv %rc.1;
+            %tmp.10 = getv ? :radiusOffset;
+            %tmp.11 = as %tmp.10 Float;
+            %tmp.12 = add %tmp.8 %tmp.11;
+            lputv %r1.2 %tmp.12;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 23 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop" ]
+            %rMax.3 = local;
+            %tmp.14 = lgetv %rc.1;
+            %tmp.15 = 2.0f;
+            %tmp.17 = getv ? :centerRadieRatio;
+            %tmp.18 = mul %tmp.15 %tmp.17;
+            %tmp.19 = as %tmp.18 Float;
+            %tmp.20 = div %tmp.14 %tmp.19;
+            lputv %rMax.3 %tmp.20;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 24 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop" ]
+            %S.4 = local;
+            %tmp.22 = getv ? :resolution;
+            %tmp.23 = 1.0f;
+            %tmp.24 = as %tmp.23 Float;
+            %tmp.25 = sub %tmp.22 %tmp.24;
+            lputv %S.4 %tmp.25;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 25 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop" ]
+            %a.5 = local;
+            %tmp.26 = 4.0f;
+            %tmp.28 = lgetv %S.4;
+            %tmp.30 = lgetv %S.4;
+            %tmp.31 = mul %tmp.28 %tmp.30;
+            %tmp.32 = as %tmp.31 Float;
+            %tmp.33 = div %tmp.26 %tmp.32;
+            lputv %a.5 %tmp.33;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 26 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop" ]
+            %b.6 = local;
+            %tmp.34 = 4.0f;
+            %tmp.35 = sub 0 %tmp.34;
+            %tmp.37 = lgetv %S.4;
+            %tmp.38 = as %tmp.37 Float;
+            %tmp.39 = div %tmp.35 %tmp.38;
+            lputv %b.6 %tmp.39;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 27 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop" ]
+            %dR.7 = local;
+            %tmp.41 = lgetv %ratio;
+            %tmp.43 = lgetv %rMax.3;
+            %tmp.45 = lgetv %r1.2;
+            %tmp.46 = sub %tmp.43 %tmp.45;
+            %tmp.47 = as %tmp.46 Float;
+            %tmp.48 = mul %tmp.41 %tmp.47;
+            lputv %dR.7 %tmp.48;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 28 8 ]
+            %tmp.51 = getv ? :resolution;
+            %tmp.53 = getv ? :numLeafs;
+            %tmp.54 = mul %tmp.51 %tmp.53;
+            %tmp.55 = 1;
+            %tmp.56 = add %tmp.54 %tmp.55;
+            %tmp.49 = newa Array<Array<Number>> %tmp.56;
+            putv self :_centerLeaf %tmp.49;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 29 8 ]
+            %tmp.59 = getv ? :numLeafs;
+            %tmp.57 = newa Array<Array<Array<Number>>> %tmp.59;
+            putv self :_leafs %tmp.57;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 30 8 ]
+            for @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_test @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_incr @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_end;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_init:
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_begin" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_end" ]
+            %l.8 = local;
+            %tmp.60 = 0;
+            %tmp.61 = as %tmp.60 Number;
+            lputv %l.8 %tmp.61;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_test:
+            %tmp.63 = lgetv %l.8;
+            %tmp.65 = getv ? :numLeafs;
+            %tmp.66 = lt %tmp.63 %tmp.65;
+            bf %tmp.66 @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_end;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_begin:
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_31_8_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 32 12 ]
+            %tmp.67 = getv self :_leafs;
+            %tmp.70 = getv ? :resolution;
+            %tmp.71 = 2;
+            %tmp.72 = mul %tmp.70 %tmp.71;
+            %tmp.73 = 1;
+            %tmp.74 = add %tmp.72 %tmp.73;
+            %tmp.68 = newa Array<Array<Number>> %tmp.74;
+            %tmp.76 = lgetv %l.8;
+            aputv %tmp.67 %tmp.76 %tmp.68;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 33 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_31_8_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_31_8_stop" ]
+            %vStart.9 = local;
+            %tmp.78 = getv ? :startAngle;
+            %tmp.80 = lgetv %l.8;
+            %tmp.82 = getv ? :deltaAngleLeaf;
+            %tmp.83 = mul %tmp.80 %tmp.82;
+            %tmp.84 = add %tmp.78 %tmp.83;
+            %tmp.86 = getv ? :angleOffset;
+            %tmp.87 = as %tmp.86 Float;
+            %tmp.88 = add %tmp.84 %tmp.87;
+            lputv %vStart.9 %tmp.88;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 34 12 ]
+            for @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_test @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_incr @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_end;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_init:
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_begin" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_end" ]
+            %i.10 = local;
+            %tmp.89 = 0;
+            %tmp.90 = as %tmp.89 Number;
+            lputv %i.10 %tmp.90;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_test:
+            %tmp.92 = lgetv %i.10;
+            %tmp.94 = getv ? :resolution;
+            %tmp.95 = lt %tmp.92 %tmp.94;
+            bf %tmp.95 @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_end;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_begin:
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 36 16 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_stop" ]
+            %r2.11 = local;
+            %tmp.97 = lgetv %rMax.3;
+            %tmp.99 = lgetv %dR.7;
+            %tmp.101 = lgetv %a.5;
+            %tmp.103 = lgetv %i.10;
+            %tmp.104 = mul %tmp.101 %tmp.103;
+            %tmp.106 = lgetv %i.10;
+            %tmp.107 = mul %tmp.104 %tmp.106;
+            %tmp.109 = lgetv %b.6;
+            %tmp.111 = lgetv %i.10;
+            %tmp.112 = mul %tmp.109 %tmp.111;
+            %tmp.113 = add %tmp.107 %tmp.112;
+            %tmp.114 = 1.0f;
+            %tmp.115 = add %tmp.113 %tmp.114;
+            %tmp.116 = mul %tmp.99 %tmp.115;
+            %tmp.117 = as %tmp.116 Float;
+            %tmp.118 = sub %tmp.97 %tmp.117;
+            lputv %r2.11 %tmp.118;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 37 16 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_stop" ]
+            %v.12 = local;
+            %tmp.120 = lgetv %vStart.9;
+            %tmp.122 = lgetv %i.10;
+            %tmp.124 = getv ? :angleStep;
+            %tmp.125 = as %tmp.124 Float;
+            %tmp.126 = mul %tmp.122 %tmp.125;
+            %tmp.127 = add %tmp.120 %tmp.126;
+            lputv %v.12 %tmp.127;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 38 16 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_stop" ]
+            %cosv.13 = local;
+            %tmp.128 = getm $.Toybox.Math;
+            %tmp.129 = getv function %tmp.128 :cos;
+            %tmp.131 = lgetv %v.12;
+            %tmp.132 = invoke %tmp.128 %tmp.129(%tmp.131);
+            %tmp.133 = as %tmp.132 Float;
+            lputv %cosv.13 %tmp.133;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 39 16 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_stop" ]
+            %sinv.14 = local;
+            %tmp.134 = getm $.Toybox.Math;
+            %tmp.135 = getv function %tmp.134 :sin;
+            %tmp.137 = lgetv %v.12;
+            %tmp.138 = invoke %tmp.134 %tmp.135(%tmp.137);
+            %tmp.139 = as %tmp.138 Float;
+            lputv %sinv.14 %tmp.139;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 40 16 ]
+            %tmp.140 = getv self :_centerLeaf;
+            %tmp.141 = newa 2;
+            %tmp.143 = lgetv %rc.1;
+            %tmp.145 = lgetv %cosv.13;
+            %tmp.146 = as %tmp.145 Float;
+            %tmp.147 = mul %tmp.143 %tmp.146;
+            %tmp.148 = getv function %tmp.147 :toNumber;
+            %tmp.149 = invoke %tmp.147 %tmp.148();
+            %tmp.151 = lgetv %xpos;
+            %tmp.152 = add %tmp.149 %tmp.151;
+            %tmp.153 = dup %tmp.141;
+            %tmp.154 = aputv %tmp.153 0 %tmp.152;
+            %tmp.156 = lgetv %rc.1;
+            %tmp.158 = lgetv %sinv.14;
+            %tmp.159 = as %tmp.158 Float;
+            %tmp.160 = mul %tmp.156 %tmp.159;
+            %tmp.161 = getv function %tmp.160 :toNumber;
+            %tmp.162 = invoke %tmp.160 %tmp.161();
+            %tmp.164 = lgetv %ypos;
+            %tmp.165 = add %tmp.162 %tmp.164;
+            %tmp.166 = dup %tmp.154;
+            %tmp.167 = aputv %tmp.166 1 %tmp.165;
+            %tmp.169 = lgetv %l.8;
+            %tmp.171 = getv ? :resolution;
+            %tmp.172 = mul %tmp.169 %tmp.171;
+            %tmp.174 = lgetv %i.10;
+            %tmp.175 = add %tmp.172 %tmp.174;
+            aputv %tmp.140 %tmp.175 %tmp.167;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 41 16 ]
+            %tmp.176 = getv self :_leafs;
+            %tmp.178 = lgetv %l.8;
+            %tmp.179 = agetv %tmp.176 %tmp.178;
+            %tmp.180 = newa 2;
+            %tmp.182 = lgetv %r2.11;
+            %tmp.184 = lgetv %cosv.13;
+            %tmp.185 = as %tmp.184 Float;
+            %tmp.186 = mul %tmp.182 %tmp.185;
+            %tmp.187 = getv function %tmp.186 :toNumber;
+            %tmp.188 = invoke %tmp.186 %tmp.187();
+            %tmp.190 = lgetv %xpos;
+            %tmp.191 = add %tmp.188 %tmp.190;
+            %tmp.192 = dup %tmp.180;
+            %tmp.193 = aputv %tmp.192 0 %tmp.191;
+            %tmp.195 = lgetv %r2.11;
+            %tmp.197 = lgetv %sinv.14;
+            %tmp.198 = as %tmp.197 Float;
+            %tmp.199 = mul %tmp.195 %tmp.198;
+            %tmp.200 = getv function %tmp.199 :toNumber;
+            %tmp.201 = invoke %tmp.199 %tmp.200();
+            %tmp.203 = lgetv %ypos;
+            %tmp.204 = add %tmp.201 %tmp.203;
+            %tmp.205 = dup %tmp.193;
+            %tmp.206 = aputv %tmp.205 1 %tmp.204;
+            %tmp.208 = lgetv %i.10;
+            aputv %tmp.179 %tmp.208 %tmp.206;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 42 16 ]
+            %tmp.209 = getv self :_leafs;
+            %tmp.211 = lgetv %l.8;
+            %tmp.212 = agetv %tmp.209 %tmp.211;
+            %tmp.213 = newa 2;
+            %tmp.215 = lgetv %r1.2;
+            %tmp.217 = lgetv %cosv.13;
+            %tmp.218 = as %tmp.217 Float;
+            %tmp.219 = mul %tmp.215 %tmp.218;
+            %tmp.220 = getv function %tmp.219 :toNumber;
+            %tmp.221 = invoke %tmp.219 %tmp.220();
+            %tmp.223 = lgetv %xpos;
+            %tmp.224 = add %tmp.221 %tmp.223;
+            %tmp.225 = dup %tmp.213;
+            %tmp.226 = aputv %tmp.225 0 %tmp.224;
+            %tmp.228 = lgetv %r1.2;
+            %tmp.230 = lgetv %sinv.14;
+            %tmp.231 = as %tmp.230 Float;
+            %tmp.232 = mul %tmp.228 %tmp.231;
+            %tmp.233 = getv function %tmp.232 :toNumber;
+            %tmp.234 = invoke %tmp.232 %tmp.233();
+            %tmp.236 = lgetv %ypos;
+            %tmp.237 = add %tmp.234 %tmp.236;
+            %tmp.238 = dup %tmp.226;
+            %tmp.239 = aputv %tmp.238 1 %tmp.237;
+            %tmp.241 = getv ? :resolution;
+            %tmp.242 = 2;
+            %tmp.243 = mul %tmp.241 %tmp.242;
+            %tmp.244 = 1;
+            %tmp.245 = sub %tmp.243 %tmp.244;
+            %tmp.247 = lgetv %i.10;
+            %tmp.248 = sub %tmp.245 %tmp.247;
+            aputv %tmp.212 %tmp.248 %tmp.239;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_35_12_stop:
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_incr:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 34 ]
+            %tmp.249 = lgetv %i.10;
+            %tmp.250 = 1;
+            %tmp.251 = add %tmp.249 %tmp.250;
+            lputv %i.10 %tmp.251;
+            goto @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_test;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_34_12_for_end:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 44 12 ]
+            %tmp.252 = getv self :_leafs;
+            %tmp.254 = lgetv %l.8;
+            %tmp.255 = agetv %tmp.252 %tmp.254;
+            %tmp.256 = lgetv %self;
+            %tmp.257 = getv %tmp.256 :_leafs;
+            %tmp.259 = lgetv %l.8;
+            %tmp.260 = agetv %tmp.257 %tmp.259;
+            %tmp.261 = 0;
+            %tmp.262 = agetv %tmp.260 %tmp.261;
+            %tmp.264 = getv ? :resolution;
+            %tmp.265 = 2;
+            %tmp.266 = mul %tmp.264 %tmp.265;
+            aputv %tmp.255 %tmp.266 %tmp.262;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_31_8_stop:
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_incr:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 30 ]
+            %tmp.267 = lgetv %l.8;
+            %tmp.268 = 1;
+            %tmp.269 = add %tmp.267 %tmp.268;
+            lputv %l.8 %tmp.269;
+            goto @_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_test;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_30_8_for_end:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 46 8 ]
+            %tmp.270 = getv self :_centerLeaf;
+            %tmp.271 = lgetv %self;
+            %tmp.272 = getv %tmp.271 :_centerLeaf;
+            %tmp.273 = 0;
+            %tmp.274 = agetv %tmp.272 %tmp.273;
+            %tmp.276 = getv ? :numLeafs;
+            %tmp.278 = getv ? :resolution;
+            %tmp.279 = mul %tmp.276 %tmp.278;
+            aputv %tmp.270 %tmp.279 %tmp.274;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_20_4_stop:
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 48; ]
+        public
+        function getCenterLeaf() as Array<Array<Number>> {
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_49_4_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 50 8 ]
+            %tmp.1 = lgetv %self;
+            %tmp.2 = getv %tmp.1 :_centerLeaf;
+            ret %tmp.2;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_49_4_stop:
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 52; ]
+        public
+        function getLeaf(id as Number) as Array<Array<Number>> {
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_53_4_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 54 8 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_53_4_start" "_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_53_4_stop" ]
+            %i.1 = local;
+            %tmp.2 = lgetv %id;
+            %tmp.4 = getv ? :numLeafs;
+            %tmp.5 = mod %tmp.2 %tmp.4;
+            lputv %i.1 %tmp.5;
+[ "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" 55 8 ]
+            %tmp.6 = lgetv %self;
+            %tmp.7 = getv %tmp.6 :_leafs;
+            %tmp.9 = lgetv %i.1;
+            %tmp.10 = agetv %tmp.7 %tmp.9;
+            ret %tmp.10;
+_Users_blom_github_garmin_FlowerLapCounter_source_Leaf_mc_53_4_stop:
+        }
+    }
+}
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc"; @line = 1; ]
+<init> {
+}
