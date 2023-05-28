@@ -62,17 +62,16 @@ class FlowerLapCounterView extends WatchUi.DataField {
         dc.clear();
         
         var center = self._leafs.getCenterLeaf();
-        if (mCounter % 20 < 10)
+        if (mCounter % 20 <  10)
         {
-            dc.fillPolygon(center);
+            dc.fillPolygon(center); 
         }
         else
         {
             for (var i = 1 as Number; i < center.size() ; i +=1)
             {
                 dc.drawLine(center[i-1][0],center[i-1][1],center[i][0],center[i][1]);
-            }
-            
+            }      
         }
         if (mCounter % 10 < 5)
         {
@@ -92,49 +91,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
                 dc.fillPolygon(leaf);
             }
         }
-        
-        
+ 
     }
 
-    function  getLeaf(x as Number, y as Number, size as Number, startAngle as Float) as Array<Array<Numeric>>
-    {
-        var degOffset = Math.PI/45.0f as Float;
-        var radiusOffset = 2.0 as Float;
-        var cosStart = Math.cos(startAngle+degOffset) as Float;
-        var cosEnd   = Math.cos(startAngle+Math.PI*0.4f-degOffset) as Float;
-        var sinStart = Math.sin(startAngle+degOffset) as Float;
-        var sinEnd   = Math.sin(startAngle+Math.PI*0.4f-degOffset) as Float;
-        var r1 = size + radiusOffset;
-        var r2 = size*3 - radiusOffset;
-        
-        var p1 = [Math.floor(r2*cosStart)+x,Math.floor(r2*sinStart)+y];
-        var p2 = [Math.floor(r2*cosEnd)+x,Math.floor(r2*sinEnd)+y]; 
-        var p3 = [Math.floor(r1*cosEnd)+x,Math.floor(r1*sinEnd)+y];
-        var p4 = [Math.floor(r1*cosStart)+x,Math.floor(r1*sinStart)+y];    
-        return [p1,p2,p3,p4,p1];
-    }
-    function  getLeaf2(x as Number, y as Number, size as Number, startAngle as Float) as Array<Array<Numeric>>
-    {
-        var degOffset = Math.PI/90.0f as Float;
-        var radiusOffset = 3.0 as Float;
-        var ratio = 1.0 as Float;
-        var steps = 10 as Number;
-        var leafPoints = new Array<Array<Numeric>>[steps*2+1];
-        var radSteps = (Math.PI*0.4f-2*degOffset)/ (steps-1) as Float;
-        var r1 = size + radiusOffset;
-        var rMax = size * 3.0f as Float;
-        var S = steps - 1.0f as Float;
-        var a = 4.0f / (S * S) as Float;
-        var b = -4.0f / S as Float;
-        var dR = ratio * (rMax - r1) as Float;
-        for (var i = 0 as Number; i < steps; i+= 1)
-        {
-            var r2 = rMax - (dR * ((a * i * i) + (b * i) + 1.0f) ) as Float;
-            var v = i*radSteps+startAngle+degOffset as Float;
-            leafPoints[i]       = [Math.floor(r2*Math.cos(v))+x,Math.floor(r2*Math.sin(v))+y];
-            leafPoints[(steps*2-1)-i] = [Math.floor(r1*Math.cos(v))+x,Math.floor(r1*Math.sin(v))+y];
-        }
-        leafPoints[steps*2]=leafPoints[0];
-        return leafPoints;
-    }
 }
