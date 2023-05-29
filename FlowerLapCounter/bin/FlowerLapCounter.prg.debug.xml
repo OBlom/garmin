@@ -56,75 +56,82 @@
         <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="97" parent="globals/FlowerLapCounterView" pc="268438126" symbol="onUpdate"/>
         <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="99" parent="globals/FlowerLapCounterView" pc="268438137" symbol="onUpdate"/>
         <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="101" parent="globals/FlowerLapCounterView" pc="268438154" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="103" parent="globals/FlowerLapCounterView" pc="268438185" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="105" parent="globals/FlowerLapCounterView" pc="268438209" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="113" parent="globals/FlowerLapCounterView" pc="268438293" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="114" parent="globals/FlowerLapCounterView" pc="268438330" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="116" parent="globals/FlowerLapCounterView" pc="268438347" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="118" parent="globals/FlowerLapCounterView" pc="268438423" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="120" parent="globals/FlowerLapCounterView" pc="268438441" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="121" parent="globals/FlowerLapCounterView" pc="268438462" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="124" parent="globals/FlowerLapCounterView" pc="268438476" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="126" parent="globals/FlowerLapCounterView" pc="268438493" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="128" parent="globals/FlowerLapCounterView" pc="268438507" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="130" parent="globals/FlowerLapCounterView" pc="268438531" symbol="onUpdate"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="17" lineNum="49" parent="globals/Flower/Leaf" pc="268438629" symbol="getCenterLeaf"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="17" lineNum="51" parent="globals/Flower/Leaf" pc="268438631" symbol="getCenterLeaf"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="18" lineNum="53" parent="globals/Flower/Leaf" pc="268438640" symbol="getLeaf"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="18" lineNum="55" parent="globals/Flower/Leaf" pc="268438644" symbol="getLeaf"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="18" lineNum="56" parent="globals/Flower/Leaf" pc="268438654" symbol="getLeaf"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="19" lineNum="58" parent="globals/Flower/Leaf" pc="268438666" symbol="getNumLeafs"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="19" lineNum="60" parent="globals/Flower/Leaf" pc="268438668" symbol="getNumLeafs"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="19" parent="globals/Flower/Leaf" pc="268438674" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="21" parent="globals/Flower/Leaf" pc="268438678" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="22" parent="globals/Flower/Leaf" pc="268438688" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="23" parent="globals/Flower/Leaf" pc="268438698" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="24" parent="globals/Flower/Leaf" pc="268438708" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="25" parent="globals/Flower/Leaf" pc="268438715" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="26" parent="globals/Flower/Leaf" pc="268438728" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="27" parent="globals/Flower/Leaf" pc="268438738" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="28" parent="globals/Flower/Leaf" pc="268438748" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="29" parent="globals/Flower/Leaf" pc="268438762" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="30" parent="globals/Flower/Leaf" pc="268438776" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="32" parent="globals/Flower/Leaf" pc="268438794" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="33" parent="globals/Flower/Leaf" pc="268438811" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="34" parent="globals/Flower/Leaf" pc="268438833" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="36" parent="globals/Flower/Leaf" pc="268438851" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="37" parent="globals/Flower/Leaf" pc="268438879" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="38" parent="globals/Flower/Leaf" pc="268438892" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="39" parent="globals/Flower/Leaf" pc="268438911" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="40" parent="globals/Flower/Leaf" pc="268438930" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="41" parent="globals/Flower/Leaf" pc="268439006" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="42" parent="globals/Flower/Leaf" pc="268439076" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="44" parent="globals/Flower/Leaf" pc="268439165" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="47" parent="globals/Flower/Leaf" pc="268439212" symbol="initialize"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="63" parent="globals/Rez/Layouts" pc="268439241" symbol="BottomRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="64" parent="globals/Rez/Layouts" pc="268439253" symbol="BottomRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="66" parent="globals/Rez/Layouts" pc="268439281" symbol="BottomRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="68" parent="globals/Rez/Layouts" pc="268439393" symbol="BottomRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="70" parent="globals/Rez/Layouts" pc="268439505" symbol="BottomRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="43" parent="globals/Rez/Layouts" pc="268439542" symbol="TopRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="44" parent="globals/Rez/Layouts" pc="268439554" symbol="TopRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="46" parent="globals/Rez/Layouts" pc="268439582" symbol="TopRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="48" parent="globals/Rez/Layouts" pc="268439694" symbol="TopRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="50" parent="globals/Rez/Layouts" pc="268439806" symbol="TopRightLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="53" parent="globals/Rez/Layouts" pc="268439843" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="54" parent="globals/Rez/Layouts" pc="268439855" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="56" parent="globals/Rez/Layouts" pc="268439883" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="58" parent="globals/Rez/Layouts" pc="268439995" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="60" parent="globals/Rez/Layouts" pc="268440107" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="33" parent="globals/Rez/Layouts" pc="268440144" symbol="TopLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="34" parent="globals/Rez/Layouts" pc="268440156" symbol="TopLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="36" parent="globals/Rez/Layouts" pc="268440184" symbol="TopLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="38" parent="globals/Rez/Layouts" pc="268440296" symbol="TopLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="40" parent="globals/Rez/Layouts" pc="268440408" symbol="TopLeftLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268440445" symbol="MainLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="20" parent="globals/Rez/Layouts" pc="268440457" symbol="MainLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268440470" symbol="MainLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="24" parent="globals/Rez/Layouts" pc="268440483" symbol="MainLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268440511" symbol="MainLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="28" parent="globals/Rez/Layouts" pc="268440646" symbol="MainLayout"/>
-        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="30" parent="globals/Rez/Layouts" pc="268440781" symbol="MainLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="103" parent="globals/FlowerLapCounterView" pc="268438165" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="105" parent="globals/FlowerLapCounterView" pc="268438189" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="113" parent="globals/FlowerLapCounterView" pc="268438273" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="114" parent="globals/FlowerLapCounterView" pc="268438310" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="116" parent="globals/FlowerLapCounterView" pc="268438327" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="118" parent="globals/FlowerLapCounterView" pc="268438403" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="120" parent="globals/FlowerLapCounterView" pc="268438421" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="121" parent="globals/FlowerLapCounterView" pc="268438442" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="124" parent="globals/FlowerLapCounterView" pc="268438456" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="126" parent="globals/FlowerLapCounterView" pc="268438473" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="128" parent="globals/FlowerLapCounterView" pc="268438487" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="130" parent="globals/FlowerLapCounterView" pc="268438511" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="139" parent="globals/FlowerLapCounterView" pc="268438608" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="141" parent="globals/FlowerLapCounterView" pc="268438664" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="142" parent="globals/FlowerLapCounterView" pc="268438686" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="144" parent="globals/FlowerLapCounterView" pc="268438717" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="147" parent="globals/FlowerLapCounterView" pc="268438727" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="149" parent="globals/FlowerLapCounterView" pc="268438751" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/FlowerLapCounterView.mc" id="16" lineNum="156" parent="globals/FlowerLapCounterView" pc="268438824" symbol="onUpdate"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="17" lineNum="49" parent="globals/Flower/Leaf" pc="268438877" symbol="getCenterLeaf"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="17" lineNum="51" parent="globals/Flower/Leaf" pc="268438879" symbol="getCenterLeaf"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="18" lineNum="53" parent="globals/Flower/Leaf" pc="268438888" symbol="getLeaf"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="18" lineNum="55" parent="globals/Flower/Leaf" pc="268438892" symbol="getLeaf"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="18" lineNum="56" parent="globals/Flower/Leaf" pc="268438902" symbol="getLeaf"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="19" lineNum="58" parent="globals/Flower/Leaf" pc="268438914" symbol="getNumLeafs"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="19" lineNum="60" parent="globals/Flower/Leaf" pc="268438916" symbol="getNumLeafs"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="19" parent="globals/Flower/Leaf" pc="268438922" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="21" parent="globals/Flower/Leaf" pc="268438926" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="22" parent="globals/Flower/Leaf" pc="268438936" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="23" parent="globals/Flower/Leaf" pc="268438946" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="24" parent="globals/Flower/Leaf" pc="268438956" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="25" parent="globals/Flower/Leaf" pc="268438963" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="26" parent="globals/Flower/Leaf" pc="268438976" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="27" parent="globals/Flower/Leaf" pc="268438986" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="28" parent="globals/Flower/Leaf" pc="268438996" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="29" parent="globals/Flower/Leaf" pc="268439010" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="30" parent="globals/Flower/Leaf" pc="268439024" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="32" parent="globals/Flower/Leaf" pc="268439042" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="33" parent="globals/Flower/Leaf" pc="268439059" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="34" parent="globals/Flower/Leaf" pc="268439081" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="36" parent="globals/Flower/Leaf" pc="268439099" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="37" parent="globals/Flower/Leaf" pc="268439127" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="38" parent="globals/Flower/Leaf" pc="268439140" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="39" parent="globals/Flower/Leaf" pc="268439159" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="40" parent="globals/Flower/Leaf" pc="268439178" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="41" parent="globals/Flower/Leaf" pc="268439254" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="42" parent="globals/Flower/Leaf" pc="268439324" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="44" parent="globals/Flower/Leaf" pc="268439413" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/source/Leaf.mc" id="20" lineNum="47" parent="globals/Flower/Leaf" pc="268439460" symbol="initialize"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="63" parent="globals/Rez/Layouts" pc="268439489" symbol="BottomRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="64" parent="globals/Rez/Layouts" pc="268439501" symbol="BottomRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="66" parent="globals/Rez/Layouts" pc="268439529" symbol="BottomRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="68" parent="globals/Rez/Layouts" pc="268439641" symbol="BottomRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="21" lineNum="70" parent="globals/Rez/Layouts" pc="268439753" symbol="BottomRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="43" parent="globals/Rez/Layouts" pc="268439790" symbol="TopRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="44" parent="globals/Rez/Layouts" pc="268439802" symbol="TopRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="46" parent="globals/Rez/Layouts" pc="268439830" symbol="TopRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="48" parent="globals/Rez/Layouts" pc="268439942" symbol="TopRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="22" lineNum="50" parent="globals/Rez/Layouts" pc="268440054" symbol="TopRightLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="53" parent="globals/Rez/Layouts" pc="268440091" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="54" parent="globals/Rez/Layouts" pc="268440103" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="56" parent="globals/Rez/Layouts" pc="268440131" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="58" parent="globals/Rez/Layouts" pc="268440243" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="23" lineNum="60" parent="globals/Rez/Layouts" pc="268440355" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="33" parent="globals/Rez/Layouts" pc="268440392" symbol="TopLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="34" parent="globals/Rez/Layouts" pc="268440404" symbol="TopLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="36" parent="globals/Rez/Layouts" pc="268440432" symbol="TopLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="38" parent="globals/Rez/Layouts" pc="268440544" symbol="TopLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="24" lineNum="40" parent="globals/Rez/Layouts" pc="268440656" symbol="TopLeftLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268440693" symbol="MainLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="20" parent="globals/Rez/Layouts" pc="268440705" symbol="MainLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268440718" symbol="MainLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="24" parent="globals/Rez/Layouts" pc="268440731" symbol="MainLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268440759" symbol="MainLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="28" parent="globals/Rez/Layouts" pc="268440894" symbol="MainLayout"/>
+        <entry filename="/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" id="25" lineNum="30" parent="globals/Rez/Layouts" pc="268441029" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -206,56 +213,58 @@
         <entry endPc="268437892" name="centerW" stackId="4" startPc="268437785"/>
         <entry endPc="268437892" name="centerH" stackId="5" startPc="268437785"/>
         <entry endPc="268437892" name="size" stackId="6" startPc="268437785"/>
-        <entry arg="true" endPc="268438628" name="dc" stackId="1" startPc="268437951"/>
-        <entry endPc="268438627" name="center" stackId="2" startPc="268437955"/>
-        <entry endPc="268438627" name="drawType" stackId="3" startPc="268437955"/>
-        <entry endPc="268438289" name="i" stackId="4" startPc="268438209"/>
-        <entry endPc="268438627" name="drawLeafType" stackId="5" startPc="268437955"/>
-        <entry endPc="268438627" name="l" stackId="6" startPc="268438441"/>
-        <entry endPc="268438614" name="leaf" stackId="7" startPc="268438441"/>
-        <entry endPc="268438611" name="i" stackId="8" startPc="268438531"/>
-        <entry arg="true" endPc="268438665" name="id" stackId="1" startPc="268438640"/>
-        <entry endPc="268438665" name="i" stackId="2" startPc="268438644"/>
-        <entry arg="true" endPc="268439240" name="ratio" stackId="1" startPc="268438674"/>
-        <entry arg="true" endPc="268439240" name="diameter" stackId="2" startPc="268438674"/>
-        <entry arg="true" endPc="268439240" name="xpos" stackId="3" startPc="268438674"/>
-        <entry arg="true" endPc="268439240" name="ypos" stackId="4" startPc="268438674"/>
-        <entry endPc="268439239" name="rc" stackId="5" startPc="268438678"/>
-        <entry endPc="268439239" name="r1" stackId="6" startPc="268438678"/>
-        <entry endPc="268439239" name="rMax" stackId="7" startPc="268438678"/>
-        <entry endPc="268439239" name="S" stackId="8" startPc="268438678"/>
-        <entry endPc="268439239" name="a" stackId="9" startPc="268438678"/>
-        <entry endPc="268439239" name="b" stackId="10" startPc="268438678"/>
-        <entry endPc="268439239" name="dR" stackId="11" startPc="268438678"/>
-        <entry endPc="268439211" name="l" stackId="12" startPc="268438794"/>
-        <entry endPc="268439198" name="vStart" stackId="13" startPc="268438794"/>
-        <entry endPc="268439164" name="i" stackId="14" startPc="268438851"/>
-        <entry endPc="268439151" name="r2" stackId="15" startPc="268438851"/>
-        <entry endPc="268439151" name="v" stackId="16" startPc="268438851"/>
-        <entry endPc="268439151" name="cosv" stackId="17" startPc="268438851"/>
-        <entry endPc="268439151" name="sinv" stackId="18" startPc="268438851"/>
-        <entry arg="true" endPc="268439541" name="dc" stackId="1" startPc="268439241"/>
-        <entry endPc="268439541" name="rez_cmp_local_custom_drawable_19083638242398143258" stackId="2" startPc="268439253"/>
-        <entry endPc="268439541" name="rez_cmp_local_text_label" stackId="3" startPc="268439253"/>
-        <entry endPc="268439541" name="rez_cmp_local_text_value" stackId="4" startPc="268439253"/>
-        <entry arg="true" endPc="268439842" name="dc" stackId="1" startPc="268439542"/>
-        <entry endPc="268439842" name="rez_cmp_local_custom_drawable_23021202918932296513" stackId="2" startPc="268439554"/>
-        <entry endPc="268439842" name="rez_cmp_local_text_label" stackId="3" startPc="268439554"/>
-        <entry endPc="268439842" name="rez_cmp_local_text_value" stackId="4" startPc="268439554"/>
-        <entry arg="true" endPc="268440143" name="dc" stackId="1" startPc="268439843"/>
-        <entry endPc="268440143" name="rez_cmp_local_custom_drawable_18428668526438125128" stackId="2" startPc="268439855"/>
-        <entry endPc="268440143" name="rez_cmp_local_text_label" stackId="3" startPc="268439855"/>
-        <entry endPc="268440143" name="rez_cmp_local_text_value" stackId="4" startPc="268439855"/>
-        <entry arg="true" endPc="268440444" name="dc" stackId="1" startPc="268440144"/>
-        <entry endPc="268440444" name="rez_cmp_local_custom_drawable_57715821059436050418" stackId="2" startPc="268440156"/>
-        <entry endPc="268440444" name="rez_cmp_local_text_label" stackId="3" startPc="268440156"/>
-        <entry endPc="268440444" name="rez_cmp_local_text_value" stackId="4" startPc="268440156"/>
-        <entry arg="true" endPc="268440817" name="dc" stackId="1" startPc="268440445"/>
-        <entry endPc="268440817" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268440457"/>
-        <entry endPc="268440817" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268440457"/>
-        <entry endPc="268440817" name="rez_cmp_local_custom_drawable_20661808485068070522" stackId="4" startPc="268440457"/>
-        <entry endPc="268440817" name="rez_cmp_local_text_label" stackId="5" startPc="268440457"/>
-        <entry endPc="268440817" name="rez_cmp_local_text_value" stackId="6" startPc="268440457"/>
+        <entry arg="true" endPc="268438876" name="dc" stackId="1" startPc="268437951"/>
+        <entry endPc="268438875" name="center" stackId="2" startPc="268437955"/>
+        <entry endPc="268438875" name="drawType" stackId="3" startPc="268437955"/>
+        <entry endPc="268438269" name="i" stackId="4" startPc="268438189"/>
+        <entry endPc="268438875" name="drawLeafType" stackId="5" startPc="268437955"/>
+        <entry endPc="268438607" name="l" stackId="6" startPc="268438421"/>
+        <entry endPc="268438594" name="leaf" stackId="7" startPc="268438421"/>
+        <entry endPc="268438591" name="i" stackId="8" startPc="268438511"/>
+        <entry endPc="268438872" name="demoDistance" stackId="9" startPc="268438664"/>
+        <entry endPc="268438872" name="message" stackId="10" startPc="268438664"/>
+        <entry arg="true" endPc="268438913" name="id" stackId="1" startPc="268438888"/>
+        <entry endPc="268438913" name="i" stackId="2" startPc="268438892"/>
+        <entry arg="true" endPc="268439488" name="ratio" stackId="1" startPc="268438922"/>
+        <entry arg="true" endPc="268439488" name="diameter" stackId="2" startPc="268438922"/>
+        <entry arg="true" endPc="268439488" name="xpos" stackId="3" startPc="268438922"/>
+        <entry arg="true" endPc="268439488" name="ypos" stackId="4" startPc="268438922"/>
+        <entry endPc="268439487" name="rc" stackId="5" startPc="268438926"/>
+        <entry endPc="268439487" name="r1" stackId="6" startPc="268438926"/>
+        <entry endPc="268439487" name="rMax" stackId="7" startPc="268438926"/>
+        <entry endPc="268439487" name="S" stackId="8" startPc="268438926"/>
+        <entry endPc="268439487" name="a" stackId="9" startPc="268438926"/>
+        <entry endPc="268439487" name="b" stackId="10" startPc="268438926"/>
+        <entry endPc="268439487" name="dR" stackId="11" startPc="268438926"/>
+        <entry endPc="268439459" name="l" stackId="12" startPc="268439042"/>
+        <entry endPc="268439446" name="vStart" stackId="13" startPc="268439042"/>
+        <entry endPc="268439412" name="i" stackId="14" startPc="268439099"/>
+        <entry endPc="268439399" name="r2" stackId="15" startPc="268439099"/>
+        <entry endPc="268439399" name="v" stackId="16" startPc="268439099"/>
+        <entry endPc="268439399" name="cosv" stackId="17" startPc="268439099"/>
+        <entry endPc="268439399" name="sinv" stackId="18" startPc="268439099"/>
+        <entry arg="true" endPc="268439789" name="dc" stackId="1" startPc="268439489"/>
+        <entry endPc="268439789" name="rez_cmp_local_custom_drawable_18007296191717651044" stackId="2" startPc="268439501"/>
+        <entry endPc="268439789" name="rez_cmp_local_text_label" stackId="3" startPc="268439501"/>
+        <entry endPc="268439789" name="rez_cmp_local_text_value" stackId="4" startPc="268439501"/>
+        <entry arg="true" endPc="268440090" name="dc" stackId="1" startPc="268439790"/>
+        <entry endPc="268440090" name="rez_cmp_local_custom_drawable_70001133555880725778" stackId="2" startPc="268439802"/>
+        <entry endPc="268440090" name="rez_cmp_local_text_label" stackId="3" startPc="268439802"/>
+        <entry endPc="268440090" name="rez_cmp_local_text_value" stackId="4" startPc="268439802"/>
+        <entry arg="true" endPc="268440391" name="dc" stackId="1" startPc="268440091"/>
+        <entry endPc="268440391" name="rez_cmp_local_custom_drawable_56392809819717650531" stackId="2" startPc="268440103"/>
+        <entry endPc="268440391" name="rez_cmp_local_text_label" stackId="3" startPc="268440103"/>
+        <entry endPc="268440391" name="rez_cmp_local_text_value" stackId="4" startPc="268440103"/>
+        <entry arg="true" endPc="268440692" name="dc" stackId="1" startPc="268440392"/>
+        <entry endPc="268440692" name="rez_cmp_local_custom_drawable_13806566115856624508" stackId="2" startPc="268440404"/>
+        <entry endPc="268440692" name="rez_cmp_local_text_label" stackId="3" startPc="268440404"/>
+        <entry endPc="268440692" name="rez_cmp_local_text_value" stackId="4" startPc="268440404"/>
+        <entry arg="true" endPc="268441065" name="dc" stackId="1" startPc="268440693"/>
+        <entry endPc="268441065" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268440705"/>
+        <entry endPc="268441065" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268440705"/>
+        <entry endPc="268441065" name="rez_cmp_local_custom_drawable_69189144489520055962" stackId="4" startPc="268440705"/>
+        <entry endPc="268441065" name="rez_cmp_local_text_label" stackId="5" startPc="268440705"/>
+        <entry endPc="268441065" name="rez_cmp_local_text_value" stackId="6" startPc="268440705"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -332,24 +341,24 @@
         <functionEntry accessMode="public" endPc="268437950" name="initialize" parent="FlowerLapCounterView" startPc="268437894">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438628" name="onUpdate" parent="FlowerLapCounterView" startPc="268437951">
+        <functionEntry accessMode="public" endPc="268438876" name="onUpdate" parent="FlowerLapCounterView" startPc="268437951">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Leaf">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438639" name="getCenterLeaf" parent="Leaf" startPc="268438629">
+        <functionEntry accessMode="public" endPc="268438887" name="getCenterLeaf" parent="Leaf" startPc="268438877">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438665" name="getLeaf" parent="Leaf" startPc="268438640">
+        <functionEntry accessMode="public" endPc="268438913" name="getLeaf" parent="Leaf" startPc="268438888">
             <param id="id"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438673" name="getNumLeafs" parent="Leaf" startPc="268438666">
+        <functionEntry accessMode="public" endPc="268438921" name="getNumLeafs" parent="Leaf" startPc="268438914">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439240" name="initialize" parent="Leaf" startPc="268438674">
+        <functionEntry accessMode="public" endPc="268439488" name="initialize" parent="Leaf" startPc="268438922">
             <param id="ratio"/>
             <param id="diameter"/>
             <param id="xpos"/>
@@ -374,23 +383,23 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439541" name="BottomRightLayout" parent="Layouts" startPc="268439241">
+        <functionEntry accessMode="public" endPc="268439789" name="BottomRightLayout" parent="Layouts" startPc="268439489">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439842" name="TopRightLayout" parent="Layouts" startPc="268439542">
+        <functionEntry accessMode="public" endPc="268440090" name="TopRightLayout" parent="Layouts" startPc="268439790">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440143" name="BottomLeftLayout" parent="Layouts" startPc="268439843">
+        <functionEntry accessMode="public" endPc="268440391" name="BottomLeftLayout" parent="Layouts" startPc="268440091">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440444" name="TopLeftLayout" parent="Layouts" startPc="268440144">
+        <functionEntry accessMode="public" endPc="268440692" name="TopLeftLayout" parent="Layouts" startPc="268440392">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440817" name="MainLayout" parent="Layouts" startPc="268440445">
+        <functionEntry accessMode="public" endPc="268441065" name="MainLayout" parent="Layouts" startPc="268440693">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

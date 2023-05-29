@@ -57,10 +57,10 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 24 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_custom_drawable_20661808485068070522.3 = local;
+            %rez_cmp_local_custom_drawable_69189144489520055962.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_20661808485068070522.3 %tmp.7;
+            lputv %rez_cmp_local_custom_drawable_69189144489520055962.3 %tmp.7;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 26 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_label.4 = local;
@@ -153,7 +153,7 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value.5 %tmp.61;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 30 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_20661808485068070522.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_69189144489520055962.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -170,10 +170,10 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
 _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_start:
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 34 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_stop" ]
-            %rez_cmp_local_custom_drawable_57715821059436050418.1 = local;
+            %rez_cmp_local_custom_drawable_13806566115856624508.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_57715821059436050418.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_13806566115856624508.1 %tmp.1;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 36 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_stop" ]
             %rez_cmp_local_text_label.2 = local;
@@ -246,7 +246,7 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value.3 %tmp.43;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 40 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_57715821059436050418.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_13806566115856624508.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -263,10 +263,10 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
 _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_start:
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 44 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_stop" ]
-            %rez_cmp_local_custom_drawable_23021202918932296513.1 = local;
+            %rez_cmp_local_custom_drawable_70001133555880725778.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_23021202918932296513.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_70001133555880725778.1 %tmp.1;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 46 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_stop" ]
             %rez_cmp_local_text_label.2 = local;
@@ -339,7 +339,7 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value.3 %tmp.43;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 50 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_23021202918932296513.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_70001133555880725778.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -356,10 +356,10 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
 _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_start:
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 54 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_stop" ]
-            %rez_cmp_local_custom_drawable_18428668526438125128.1 = local;
+            %rez_cmp_local_custom_drawable_56392809819717650531.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_18428668526438125128.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_56392809819717650531.1 %tmp.1;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 56 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_stop" ]
             %rez_cmp_local_text_label.2 = local;
@@ -432,7 +432,7 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value.3 %tmp.43;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 60 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_18428668526438125128.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_56392809819717650531.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -449,10 +449,10 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
 _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_start:
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 64 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_stop" ]
-            %rez_cmp_local_custom_drawable_19083638242398143258.1 = local;
+            %rez_cmp_local_custom_drawable_18007296191717651044.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_19083638242398143258.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_18007296191717651044.1 %tmp.1;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 66 12 ]
             [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_stop" ]
             %rez_cmp_local_text_label.2 = local;
@@ -525,7 +525,7 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen
             lputv %rez_cmp_local_text_value.3 %tmp.43;
 [ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 70 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_19083638242398143258.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_18007296191717651044.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;

@@ -12,7 +12,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
     hidden var mCounterActive as Boolean;
     hidden var _leafs as Leaf or Null;
     //                  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
-    const drawCenter = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2] as Array<Number>;
+    const drawCenter = [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2] as Array<Number>;
     const drawLeaf = [[0,0,0,0,0], // 0
                       [1,2,2,2,2], // 1
                       [1,1,2,2,2], // 2 
@@ -64,7 +64,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
         if (info has :elapsedTime && info has :elapsedDistance)
         {
             if (info.elapsedTime != null && info.elapsedDistance != null){
-                if ( info.elapsedTime > 100){
+                if ( info.elapsedTime > 0){
                     mCounterActive = true;
                     mCounter = ((info.elapsedDistance + 0.5) / 50.0 as Float).toNumber();                  
                 }
@@ -98,7 +98,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
         {
             dc.fillPolygon(center); 
         }
-        else if(drawType == 2 || mCounter == 0)
+        else if(drawType == 2)
         {
             for (var i = 1 as Number; i < center.size() ; i +=1)
             {
@@ -135,6 +135,32 @@ class FlowerLapCounterView extends WatchUi.DataField {
                 // Don't draw
             }
 
+        }
+        if (!mCounterActive && dc.getHeight()>3*Graphics.getFontHeight(Graphics.FONT_SMALL))
+        {
+            var demoDistance = mCounter%20 * 50 as Number;
+            if (demoDistance == 0 && mCounter != 0)
+            {
+                demoDistance = 1000;
+            }
+            
+            var message =  demoDistance.format("%d") + "m" as String;
+            
+            dc.drawText(
+            dc.getWidth() / 2,                      // gets the width of the device and divides by 2
+            dc.getHeight()-Graphics.getFontHeight(Graphics.FONT_SMALL),                     // gets the height of the device and divides by 2
+            Graphics.FONT_SMALL,                    // sets the font size
+            message,                                // the String to display
+            Graphics.TEXT_JUSTIFY_CENTER            // sets the justification for the text
+                    );
+            dc.drawText(
+            dc.getWidth() / 2,                      // gets the width of the device and divides by 2
+            0,                     // gets the height of the device and divides by 2
+            Graphics.FONT_SMALL,                    // sets the font size
+            "demo:",                                // the String to display
+            Graphics.TEXT_JUSTIFY_CENTER           // sets the justification for the text
+                    );
+            
         }
  
     }
