@@ -1,68 +1,68 @@
-[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 2; ]
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 3; ]
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 4; ]
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 5; ]
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 7; ]
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 7; ]
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 8; ]
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 8; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 12; ]
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 12; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 15; ]
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 15; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 18; ]
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 18; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 19; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 19; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_start:
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 20 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_stop" ]
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 20 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 22 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_stop" ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 22 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 24 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_custom_drawable_18518126001895831097.3 = local;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 24 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_custom_drawable_20661808485068070522.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_18518126001895831097.3 %tmp.7;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 26 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_stop" ]
+            lputv %rez_cmp_local_custom_drawable_20661808485068070522.3 %tmp.7;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 26 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -106,8 +106,8 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 28 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_stop" ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 28 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -151,9 +151,9 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 30 12 ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 30 12 ]
             %tmp.111 = newa Array<WatchUi.Drawable> 3;
-            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_18518126001895831097.3;
+            %tmp.113 = lgetv %rez_cmp_local_custom_drawable_20661808485068070522.3;
             %tmp.114 = dup %tmp.111;
             %tmp.115 = aputv %tmp.114 0 %tmp.113;
             %tmp.117 = lgetv %rez_cmp_local_text_label.4;
@@ -163,19 +163,19 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.122 = dup %tmp.119;
             %tmp.123 = aputv %tmp.122 2 %tmp.121;
             ret %tmp.123;
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_19_74_stop:
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_19_74_stop:
         }
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 33; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 33; ]
         function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_start:
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 34 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_stop" ]
-            %rez_cmp_local_custom_drawable_94801737816637984496.1 = local;
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 34 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_stop" ]
+            %rez_cmp_local_custom_drawable_57715821059436050418.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_94801737816637984496.1 %tmp.1;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 36 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_stop" ]
+            lputv %rez_cmp_local_custom_drawable_57715821059436050418.1 %tmp.1;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 36 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -209,8 +209,8 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 38 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_stop" ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 38 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -244,9 +244,9 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 40 12 ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 40 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_94801737816637984496.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_57715821059436050418.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -256,19 +256,19 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_33_77_stop:
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_33_77_stop:
         }
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 43; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 43; ]
         function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_start:
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 44 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_stop" ]
-            %rez_cmp_local_custom_drawable_69922735012038602655.1 = local;
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 44 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_stop" ]
+            %rez_cmp_local_custom_drawable_23021202918932296513.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_69922735012038602655.1 %tmp.1;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 46 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_stop" ]
+            lputv %rez_cmp_local_custom_drawable_23021202918932296513.1 %tmp.1;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 46 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -302,8 +302,8 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 48 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_stop" ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 48 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -337,9 +337,9 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 50 12 ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 50 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_69922735012038602655.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_23021202918932296513.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -349,19 +349,19 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_43_78_stop:
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_43_78_stop:
         }
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 53; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 53; ]
         function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_start:
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 54 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_stop" ]
-            %rez_cmp_local_custom_drawable_95849985412870171891.1 = local;
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 54 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_stop" ]
+            %rez_cmp_local_custom_drawable_18428668526438125128.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_95849985412870171891.1 %tmp.1;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 56 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_stop" ]
+            lputv %rez_cmp_local_custom_drawable_18428668526438125128.1 %tmp.1;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 56 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -395,8 +395,8 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 58 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_stop" ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 58 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -430,9 +430,9 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 60 12 ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 60 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_95849985412870171891.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_18428668526438125128.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -442,19 +442,19 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_53_80_stop:
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_53_80_stop:
         }
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 63; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 63; ]
         function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_start:
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 64 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_stop" ]
-            %rez_cmp_local_custom_drawable_80750340414160808661.1 = local;
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_start:
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 64 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_stop" ]
+            %rez_cmp_local_custom_drawable_19083638242398143258.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_80750340414160808661.1 %tmp.1;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 66 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_stop" ]
+            lputv %rez_cmp_local_custom_drawable_19083638242398143258.1 %tmp.1;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 66 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -488,8 +488,8 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 68 12 ]
-            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_stop" ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 68 12 ]
+            [ "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_start" "_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -523,9 +523,9 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen" 70 12 ]
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 70 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_80750340414160808661.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_19083638242398143258.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -535,26 +535,1297 @@ _Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B2697_00_source_Rez_mcgen_63_81_stop:
+_Users_blom_github_garmin_FlowerLapCounter_bin_gen_006_B3889_00_source_Rez_mcgen_63_81_stop:
         }
     }
-    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 74; ]
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 74; ]
     module Menus {
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 74; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 74; ]
         <init> {
         }
     }
-    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 77; ]
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 77; ]
     module Strings {
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 77; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 77; ]
         <init> {
         }
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; ]
         var label as Symbol;
-        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; ]
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
+    [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 82; ]
+    module Styles {
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 82; ]
+        <init> {
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 83; ]
+        module system_size__menu_header {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 83; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 84; @position = 18; ]
+            const width as Number = 151;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 85; @position = 18; ]
+            const height as Number = 53;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 88; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 88; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 89; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 92; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 93; @position = 18; ]
+            const x as Number = 4;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 94; @position = 18; ]
+            const y as Number = 66;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 97; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 97; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 98; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__about.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 99; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 100; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 101; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 104; ]
+        module system_icon_light__question {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 104; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 105; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__question.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 106; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 107; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 108; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 111; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 111; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 112; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 115; ]
+        module prompt_font__title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 115; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 116 18 ]
+                %tmp.94 = getm $.Toybox.Graphics;
+                %tmp.95 = getv %tmp.94 :TEXT_JUSTIFY_RIGHT;
+                %tmp.96 = getm $.Toybox.Graphics;
+                %tmp.97 = getv %tmp.96 :TEXT_JUSTIFY_VCENTER;
+                %tmp.98 = bitor %tmp.95 %tmp.97;
+                putv self :justification %tmp.98;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 117 18 ]
+                %tmp.99 = getm $.Toybox.Graphics;
+                %tmp.100 = getv %tmp.99 :FONT_TINY;
+                putv self :font %tmp.100;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 116; @position = 18; ]
+            const justification;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 117; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 120; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 120; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 121; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__discard.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 122; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 123; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 124; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 127; ]
+        module system_size__menu_item {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 128; @position = 18; ]
+            const width as Number = 151;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 129; @position = 18; ]
+            const height as Number = 54;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 132; ]
+        module system_color_dark__text {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 132; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 134 18 ]
+                %tmp.101 = getm $.Toybox.Graphics;
+                %tmp.102 = getv %tmp.101 :COLOR_TRANSPARENT;
+                putv self :background %tmp.102;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 133; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 134; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 137; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 138; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__discard.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 139; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 140; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 141; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 144; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 144; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 145; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 146; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 147; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 148; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 151; ]
+        module prompt_size__title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 152; @position = 18; ]
+            const width as Number = 57;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 153; @position = 18; ]
+            const height as Number = 51;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 156; ]
+        module confirmation_font__body {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 156; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 157 18 ]
+                %tmp.103 = getm $.Toybox.Graphics;
+                %tmp.104 = getv %tmp.103 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.104;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 158 18 ]
+                %tmp.105 = getm $.Toybox.Graphics;
+                %tmp.106 = getv %tmp.105 :FONT_XTINY;
+                putv self :font %tmp.106;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 157; @position = 18; ]
+            const justification;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 158; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 161; ]
+        module system_color_dark__background {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 162; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 163; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 166; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 167; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 170; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 170; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 171; @position = 18; ]
+            const scaleX as Number = 54;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 172; @position = 18; ]
+            const scaleY as Number = 54;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 173; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 176; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 176; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 177 18 ]
+                %tmp.107 = getm $.Toybox.WatchUi;
+                %tmp.108 = getv %tmp.107 :KEY_ENTER;
+                putv self :button %tmp.108;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 177; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 180; ]
+        module system_icon_destructive__hint_button_middle_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 180; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 181; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 184; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 184; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 185 18 ]
+                %tmp.109 = getm $.Toybox.Graphics;
+                %tmp.110 = getv %tmp.109 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.110;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 186 18 ]
+                %tmp.111 = getm $.Toybox.Graphics;
+                %tmp.112 = getv %tmp.111 :FONT_TINY;
+                putv self :font %tmp.112;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 185; @position = 18; ]
+            const justification;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 186; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 189; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 189; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 190; @position = 18; ]
+            const x as Number = 2;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 191; @position = 18; ]
+            const y as Number = 69;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 194; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 194; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 195; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 198; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 198; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 199; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 202; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 202; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 203; @position = 18; ]
+            const x as Number = 151;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 204; @position = 18; ]
+            const y as Number = 24;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 205; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 206; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 209; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 209; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 210; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 211; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 212; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 213; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 216; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 217; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 220; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 220; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 221; @position = 18; ]
+            const width as Number = 142;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 222; @position = 18; ]
+            const height as Number = 85;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 225; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 225; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 226; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 229; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 229; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 230; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 233; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 233; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 234 18 ]
+                %tmp.113 = getm $.Toybox.WatchUi;
+                %tmp.114 = getv %tmp.113 :KEY_ENTER;
+                putv self :button %tmp.114;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 234; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 237; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 237; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 238; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 241; ]
+        module system_input__action_menu {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 241; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 242 18 ]
+                %tmp.115 = getm $.Toybox.WatchUi;
+                %tmp.116 = getv %tmp.115 :KEY_ENTER;
+                putv self :button %tmp.116;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 242; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 245; ]
+        module system_icon_light__save {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 246; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__save.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 247; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 248; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 249; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 252; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 252; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 254 18 ]
+                %tmp.117 = getm $.Toybox.Graphics;
+                %tmp.118 = getv %tmp.117 :COLOR_TRANSPARENT;
+                putv self :background %tmp.118;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 253; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 254; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 257; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 257; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 258; @position = 18; ]
+            const x as Number = 109;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 259; @position = 18; ]
+            const y as Number = 0;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 262; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 262; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 263; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__warning.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 264; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 265; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 266; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 269; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 269; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 271 18 ]
+                %tmp.119 = getm $.Toybox.Graphics;
+                %tmp.120 = getv %tmp.119 :COLOR_TRANSPARENT;
+                putv self :background %tmp.120;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 270; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 271; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 274; ]
+        module activity_color_light__background {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 274; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 275; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 276; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 279; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 279; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 280; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 281; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 282; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 283; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 286; ]
+        module system_size__screen {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 286; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 287; @position = 18; ]
+            const width as Number = 163;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 288; @position = 18; ]
+            const height as Number = 156;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 291; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 291; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 292; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 295; ]
+        module system_color_light__background {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 295; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 296; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 297; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 300; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 300; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 301; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 302; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 303; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 304; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 307; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 308; @position = 18; ]
+            const x as Number = 110;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 309; @position = 18; ]
+            const y as Number = 1;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 312; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 312; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 314 18 ]
+                %tmp.121 = getm $.Toybox.Graphics;
+                %tmp.122 = getv %tmp.121 :COLOR_TRANSPARENT;
+                putv self :background %tmp.122;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 313; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 314; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 317; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 317; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 318 18 ]
+                %tmp.123 = getm $.Toybox.WatchUi;
+                %tmp.124 = getv %tmp.123 :KEY_DOWN;
+                putv self :button %tmp.124;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 318; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 321; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 322; @position = 18; ]
+            const x as Number = 4;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 323; @position = 18; ]
+            const y as Number = 66;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 326; ]
+        module system_icon_dark__hint_button_middle_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 327; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 330; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 330; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 331; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__search.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 332; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 333; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 334; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 337; ]
+        module activity_color_light__text {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 337; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 339 18 ]
+                %tmp.125 = getm $.Toybox.Graphics;
+                %tmp.126 = getv %tmp.125 :COLOR_TRANSPARENT;
+                putv self :background %tmp.126;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 338; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 339; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 342; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 343; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 344; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 345; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 346; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 349; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 350; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__save.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 351; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 352; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 353; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 356; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 357; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 360; ]
+        module system_icon_light__search {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 360; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 361; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__search.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 362; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 363; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 364; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 367; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 367; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 368; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 371; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 372; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 375; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 376; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 379; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 379; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 381 18 ]
+                %tmp.127 = getm $.Toybox.Graphics;
+                %tmp.128 = getv %tmp.127 :COLOR_TRANSPARENT;
+                putv self :background %tmp.128;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 380; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 381; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 384; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 384; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 386 18 ]
+                %tmp.129 = getm $.Toybox.Graphics;
+                %tmp.130 = getv %tmp.129 :COLOR_TRANSPARENT;
+                putv self :background %tmp.130;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 385; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 386; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 389; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 389; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 390; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__cancel.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 391; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 392; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 393; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 396; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 397; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 400; ]
+        module prompt_loc__title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 401; @position = 18; ]
+            const x as Number = 21;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 402; @position = 18; ]
+            const y as Number = 8;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 405; ]
+        module system_icon_positive__hint_button_middle_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 406; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 409; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 409; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 411 18 ]
+                %tmp.131 = getm $.Toybox.Graphics;
+                %tmp.132 = getv %tmp.131 :COLOR_TRANSPARENT;
+                putv self :background %tmp.132;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 410; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 411; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 414; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 414; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 415; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 416; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 417; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 418; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 421; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 421; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 425; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 426; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__cancel.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 429; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 432; ]
+        module system_icon_light__about {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 432; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 433; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__about.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 434; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 435; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 436; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 439; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 440; @position = 18; ]
+            const scaleX as Number = 35;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 441; @position = 18; ]
+            const scaleY as Number = 35;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 445; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 446; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 447; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 448; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 449; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 452; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 452; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 453; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 454; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 455; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 456; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 459; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 459; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 460; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 463; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 464; @position = 18; ]
+            const x as Number = 0;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 465; @position = 18; ]
+            const y as Number = 128;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 468; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 468; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 469; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 470; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 473; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 473; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 474; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 477; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 477; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 478; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 481; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 482; @position = 18; ]
+            const scaleX as Number = 32;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 483; @position = 18; ]
+            const scaleY as Number = 32;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 484; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 487; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 487; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 488; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__warning.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 489; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 490; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 491; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 494; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 495; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 498; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 498; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 499; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__cancel.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 500; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 501; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 502; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 505; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 506; @position = 18; ]
+            const width as Number = 142;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 507; @position = 18; ]
+            const height as Number = 85;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 510; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 511; @position = 18; ]
+            const x as Number = 151;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 512; @position = 18; ]
+            const y as Number = 24;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 513; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 514; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 517; ]
+        module system_color_light__text {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 517; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 519 18 ]
+                %tmp.133 = getm $.Toybox.Graphics;
+                %tmp.134 = getv %tmp.133 :COLOR_TRANSPARENT;
+                putv self :background %tmp.134;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 518; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 519; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 522; ]
+        module system_icon_light__check {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 522; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 523; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__check.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 524; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 525; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 526; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 529; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 529; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 530 18 ]
+                %tmp.135 = getm $.Toybox.WatchUi;
+                %tmp.136 = getv %tmp.135 :KEY_DOWN;
+                putv self :button %tmp.136;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 530; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 533; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 533; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 534; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__revert.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 535; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 536; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 537; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 540; ]
+        module system_size__subwindow {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 540; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 541; @position = 18; ]
+            const width as Number = 54;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 542; @position = 18; ]
+            const height as Number = 54;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 545; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 546; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 549; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 549; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 550; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__check.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 551; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 552; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 553; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 556; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 556; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 557; @position = 18; ]
+            const x as Number = 0;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 558; @position = 18; ]
+            const y as Number = 128;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 559; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 562; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 562; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 563; @position = 18; ]
+            const x as Number = 136;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 564; @position = 18; ]
+            const y as Number = 26;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 565; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 566; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 569; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 570; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 573; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 574; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 577; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 577; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 578; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 581; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 582; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__revert.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 583; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 584; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 585; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 588; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 589; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__question.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 590; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 591; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 592; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 595; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 596; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__discard.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 597; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 598; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 599; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 602; ]
+        module device_info {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 602; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 604 18 ]
+                %tmp.137 = getm $.Toybox.System;
+                %tmp.138 = getv %tmp.137 :SCREEN_SHAPE_SEMI_OCTAGON;
+                putv self :screenShape %tmp.138;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 603; @position = 18; ]
+            const screenWidth as Number = 163;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 604; @position = 18; ]
+            const screenShape;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 605; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 606; @position = 18; ]
+            const screenHeight as Number = 156;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 607; @position = 18; ]
+            const hasTouchScreen as Boolean = false;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 610; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 610; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 611 18 ]
+                %tmp.139 = getm $.Toybox.Graphics;
+                %tmp.140 = getv %tmp.139 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.140;
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 612 18 ]
+                %tmp.141 = getm $.Toybox.Graphics;
+                %tmp.142 = getv %tmp.141 :FONT_TINY;
+                putv self :font %tmp.142;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 611; @position = 18; ]
+            const justification;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 612; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 615; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 616; @position = 18; ]
+            const scaleX as Number = 32;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 617; @position = 18; ]
+            const scaleY as Number = 32;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 618; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 621; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 622; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__warning.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 623; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 624; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 625; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 628; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 628; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 629; @position = 18; ]
+            const x as Number = 136;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 630; @position = 18; ]
+            const y as Number = 27;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 631; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 632; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 635; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 635; ]
+            <init> {
+[ "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen" 637 18 ]
+                %tmp.143 = getm $.Toybox.Graphics;
+                %tmp.144 = getv %tmp.143 :COLOR_TRANSPARENT;
+                putv self :background %tmp.144;
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 636; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 637; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 640; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 640; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 641; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 642; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 643; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 644; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 647; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 647; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 648; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 649; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 650; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 651; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 654; ]
+        module confirmation_size__body {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 654; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 655; @position = 18; ]
+            const width as Number = 148;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 656; @position = 18; ]
+            const height as Number = 54;
+        }
+        [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 659; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 659; ]
+            <init> {
+            }
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 660; @position = 18; ]
+            const filename as String = "/Users/blom/Library/Application Support/Garmin/ConnectIQ/Devices/instinct2s/system_icon_dark__check.svg";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 661; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 662; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 663; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
 }
-[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/blom/github/garmin/FlowerLapCounter/bin/gen/006-B3889-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }

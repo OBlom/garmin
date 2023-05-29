@@ -10,7 +10,7 @@ class Leaf
     const  angleOffset = Math.PI / 90.0f as Float;
     const  centerRadieRatio = 1.0f / 6.0f as Float;
     const  radiusOffset = 3.0 as Float;
-    const  startAngle = Math.PI*1.5f as Float;
+    const  startAngle = Math.PI*1.3f as Float;
     const  deltaAngleLeaf = (Math.PI * 2.0f / numLeafs) as Float;
     const  angleStep = (deltaAngleLeaf - (2 * angleOffset)) / (resolution -1.0f) as Float;
     
@@ -43,6 +43,7 @@ class Leaf
             }
             self._leafs[l][resolution*2] = self._leafs[l][0];
         }
+
         self._centerLeaf[numLeafs*resolution] = self._centerLeaf[0];
     }
     public function getCenterLeaf() as Array<Array<Number>>
