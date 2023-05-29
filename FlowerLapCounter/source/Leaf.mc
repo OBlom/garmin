@@ -54,5 +54,9 @@ class Leaf
         var i = id % numLeafs;
         return self._leafs[i];
     }
+    public function getNumLeafs() as Number
+    {
+        return self.numLeafs;
+    }
 }
 }
