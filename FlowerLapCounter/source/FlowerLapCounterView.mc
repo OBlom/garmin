@@ -10,6 +10,17 @@ class FlowerLapCounterView extends WatchUi.DataField {
     hidden var mValue as Numeric;
     hidden var mCounter as Number;
     hidden var _leafs as Leaf or Null;
+    const drawCenter = [2,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2];
+    const drawLeaf = [[0,0,0,0,0],
+                      [1,0,0,0,0],
+                      [1,1,0,0,0],
+                      [1,1,1,0,0],
+                      [1,1,1,1,0],
+                      [1,1,1,1,1],
+                      [0,1,1,1,1],
+                      [0,0,1,1,1],
+                      [0,0,0,1,1],
+                      [0,0,0,0,1]];
 
     function initialize() {
         DataField.initialize();
