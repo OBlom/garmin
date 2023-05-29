@@ -24,7 +24,6 @@ class FlowerLapCounterView extends WatchUi.DataField {
         var height = dc.getHeight() as Number;
         var centerW = width / 2 as Number;
         var centerH = height / 2 as Number;
-        mCounter = 0;
         var size = (height > width ? width : height) as Number;
         self._leafs = new Flower.Leaf(0.6f, size, centerW,centerH);
 
@@ -41,7 +40,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
         {
             if (info.elapsedTime != null && info.elapsedDistance != null){
                 if ( info.elapsedTime > 100){
-                    mCounter = ((info.elapsedDistance + 1) / 50.0 as Float).toNumber();
+                    mCounter = ((info.elapsedDistance + 0.5) / 50.0 as Float).toNumber();
                 }
                 else{
                     mCounter++;
