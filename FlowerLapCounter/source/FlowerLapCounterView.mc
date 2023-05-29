@@ -77,34 +77,27 @@ class FlowerLapCounterView extends WatchUi.DataField {
         dc.clear();
         
         var center = self._leafs.getCenterLeaf();
-        if (mCounter % 20 <  10)
+        var drawType = drawCenter[mCounter % drawCenter.size()] as Number;
+        if (drawType == 1)
         {
             dc.fillPolygon(center); 
         }
-        else
+        else if(drawType == 2)
         {
             for (var i = 1 as Number; i < center.size() ; i +=1)
             {
                 dc.drawLine(center[i-1][0],center[i-1][1],center[i][0],center[i][1]);
-            }      
-        }
-        if (mCounter % 10 < 5)
-        {
-            var leafs = mCounter % 5 + 1;
-            for (var l = 0 as Number; l < leafs; l += 1)
-            {
-                var leaf = self._leafs.getLeaf(l);
-                dc.fillPolygon(leaf);
             }
         }
-        else
-        {
-            var leafs = (mCounter % 5);
-            for (var l = (mCounter % 5 + 1) as Number; l < 5; l += 1)
+        var drawLeafType = drawLeaf[mCounter % 10] as Array<Number>;
+        
+        for (var l = 0 as Number; l < 5; l += 1)
+        {          
+            if (drawLeafType[l] == 1)
             {
                 var leaf = self._leafs.getLeaf(l);
-                dc.fillPolygon(leaf);
-            }
+               dc.fillPolygon(leaf); 
+            }   
         }
  
     }
