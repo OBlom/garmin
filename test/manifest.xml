@@ -5,7 +5,7 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="96fefd08-ebb3-45d5-9722-e958b2d271b7" type="datafield" name="@Strings.AppName" entry="FlowerLapCounterApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.0">
+    <iq:application id="33954d44-c500-4a74-8ef6-c1cc144b6f36" type="datafield" name="@Strings.AppName" entry="testApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.1.0">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
@@ -15,24 +15,7 @@
         -->
         <iq:products>
             <iq:product id="fenix5"/>
-            <iq:product id="fenix5plus"/>
-            <iq:product id="fenix5s"/>
-            <iq:product id="fenix5splus"/>
-            <iq:product id="fenix5x"/>
-            <iq:product id="fenix5xplus"/>
-            <iq:product id="fenix6"/>
-            <iq:product id="fenix6pro"/>
-            <iq:product id="fenix6s"/>
-            <iq:product id="fenix6spro"/>
-            <iq:product id="fenix6xpro"/>
-            <iq:product id="fenix7"/>
-            <iq:product id="fenix7s"/>
-            <iq:product id="fenix7x"/>
-            <iq:product id="fenixchronos"/>
-            <iq:product id="instinct2"/>
             <iq:product id="instinct2s"/>
-            <iq:product id="instinct2x"/>
-            <iq:product id="instinctcrossover"/>
         </iq:products>
         <!--
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command
@@ -43,9 +26,7 @@
             Use "Monkey C: Edit Languages" from the Visual Studio Code command
             palette to edit your compatible language list.
         -->
-        <iq:languages>
-            <iq:language>eng</iq:language>
-        </iq:languages>
+        <iq:languages/>
         <!--
             Use "Monkey C: Configure Monkey Barrel" from the Visual Studio Code
             command palette to edit the included barrels.
