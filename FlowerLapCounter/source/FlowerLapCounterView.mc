@@ -12,7 +12,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
     hidden var mCounterActive as Boolean;
     hidden var _leafs as Leaf or Null;
     //                  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19
-    const drawCenter = [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2] as Array<Number>;
+    const drawCenter = [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2] as Array<Number>;
     const drawLeaf = [[0,0,0,0,0], // 0
                       [1,2,2,2,2], // 1
                       [1,1,2,2,2], // 2 
@@ -23,7 +23,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
                       [2,2,1,1,1], // 7
                       [2,2,2,1,1], // 8
                       [2,2,2,2,1], // 9
-                      [2,2,2,2,2], // 10
+                      [0,0,0,0,0], // 10
                       [1,2,2,2,2], // 11
                       [1,1,2,2,2], // 12 
                       [1,1,1,2,2], // 13
@@ -85,10 +85,10 @@ class FlowerLapCounterView extends WatchUi.DataField {
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
         
-        if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            dc.setColor(Graphics.COLOR_WHITE,getBackgroundColor());
+        if (mCounter % 20 < 10) {
+            dc.setColor(Graphics.COLOR_BLACK,Graphics.COLOR_WHITE);   
         } else {
-            dc.setColor(Graphics.COLOR_BLACK,getBackgroundColor());
+            dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_BLACK);
         }
         dc.clear();
         
@@ -111,10 +111,7 @@ class FlowerLapCounterView extends WatchUi.DataField {
         
         
         var drawLeafType = drawLeaf[(mCounter % drawLeaf.size())] as Array<Number>;
-        if (mCounter == 0)
-        {
-            drawLeafType = [2,2,2,2,2];
-        }
+
         for (var l = 0 as Number; l < 5; l += 1)
         {   
             var leaf = self._leafs.getLeaf(l) as Array<Array<Number>>;       
